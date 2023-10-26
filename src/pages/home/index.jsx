@@ -5,7 +5,7 @@ const HomePage = () => {
     const navigate = useNavigate();
     const handleSubmit=(e)=>{
         e.preventDefault();
-        navigate(`/room/:${roomCode}`);
+        navigate(`/room/${roomCode}`);
     }
 
     return (
